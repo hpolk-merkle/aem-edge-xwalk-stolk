@@ -42,6 +42,7 @@
         "button",
         "title",
         "hero",
+        "list",
         "cards",
         "columns",
         "fragment"
