@@ -186,6 +186,18 @@
     ]
   },
   {
+    "id": "list",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "parent",
+        "label": "Parent Path",
+        "multi": false
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {
