@@ -21,11 +21,9 @@
       "id": "list",
       "fields": [
         {
-          "component": "reference",
-          "valueType": "string",
+          "component": "aem-content",
           "name": "parent",
-          "label": "Parent Path",
-          "multi": false
+          "label": "Parent Path"
         }
       ]
     }
