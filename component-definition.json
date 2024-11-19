@@ -168,7 +168,7 @@
                   "name": "Quote",
                   "model": "quote",
                   "quote": "<p>Lorem ipsum</p>",
-                  "author": "Author Name"
+                  "author": "Author Nam"
                 }
               }
             }
