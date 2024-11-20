@@ -29,7 +29,7 @@ export default async function decorate(block) {
     json.data.forEach((item) => {
       const listItem = document.createElement('li');
       listItem.classList.add('list-block-item');
-      listItem.textContent = item.path;
+      listItem.textContent = item.Path;
 
       blockList.appendChild(listItem);
     });
