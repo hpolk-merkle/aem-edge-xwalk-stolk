@@ -1,12 +1,12 @@
-function req(url) {
-  fetch(url, { method: 'GET' })
-    .then((Result) => Result.json())
-    .then((results) => {
-      console.log(results);
-
-      return results;
-    });
-}
+// function req(url) {
+//   fetch(url, { method: 'GET' })
+//     .then((Result) => Result.json())
+//     .then((results) => {
+//       console.log(results);
+//
+//       return results;
+//     });
+// }
 
 export default async function decorate(block) {
   const [listWrapper] = block.children;
@@ -17,12 +17,19 @@ export default async function decorate(block) {
   // });
   const url = '/spreadsheet.json';
 
-  const json = await req(url);
+  // const json = await req(url);
+  const response = await fetch(url);
 
-  json.data.forEach((item) => {
-    const listItem = document.createElement('li');
-    listItem.textContent = item.path;
-  });
+  if (response.ok) {
+    const json = await response.json();
+
+    console.log(json);
+
+    json.data.forEach((item) => {
+      const listItem = document.createElement('li');
+      listItem.textContent = item.path;
+    });
+  }
 
   // blockList.textContent = listWrapper.textContent.trim();
   listWrapper.replaceChildren(blockList);
