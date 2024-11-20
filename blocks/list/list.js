@@ -1,3 +1,11 @@
+function req(url) {
+  fetch(url, { method: 'GET' })
+    .then((Result) => Result.json())
+    .then((results) => {
+      console.log(results);
+    });
+}
+
 export default function decorate(block) {
   const [listWrapper] = block.children;
 
@@ -7,11 +15,8 @@ export default function decorate(block) {
   // });
   const url = '/spreadsheet.json';
 
-  fetch(url, { method: 'GET' })
-    .then((Result) => Result.json())
-    .then((results) => {
-      console.log(results);
-    });
+  req(url);
+
   blockquote.textContent = listWrapper.textContent.trim();
   listWrapper.replaceChildren(blockquote);
 }
