@@ -12,6 +12,7 @@ export default async function decorate(block) {
   const [listWrapper] = block.children;
 
   const blockList = document.createElement('ul');
+  blockList.classList.add('list-block');
   // let urlParams = new URLSearchParams({
   //   offset: 0,
   // });
@@ -27,7 +28,10 @@ export default async function decorate(block) {
 
     json.data.forEach((item) => {
       const listItem = document.createElement('li');
+      listItem.classList.add('list-block-item');
       listItem.textContent = item.path;
+
+      blockList.appendChild(listItem);
     });
   }
 
