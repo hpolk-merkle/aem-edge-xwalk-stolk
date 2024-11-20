@@ -3,20 +3,27 @@ function req(url) {
     .then((Result) => Result.json())
     .then((results) => {
       console.log(results);
+
+      return results;
     });
 }
 
-export default function decorate(block) {
+export default async function decorate(block) {
   const [listWrapper] = block.children;
 
-  const blockquote = document.createElement('blocklist');
+  const blockList = document.createElement('ul');
   // let urlParams = new URLSearchParams({
   //   offset: 0,
   // });
   const url = '/spreadsheet.json';
 
-  req(url);
+  const json = await req(url);
 
-  blockquote.textContent = listWrapper.textContent.trim();
-  listWrapper.replaceChildren(blockquote);
+  json.data.forEach((item) => {
+    const listItem = document.createElement('li');
+    listItem.textContent = item.path;
+  });
+
+  // blockList.textContent = listWrapper.textContent.trim();
+  listWrapper.replaceChildren(blockList);
 }
