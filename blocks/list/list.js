@@ -20,6 +20,13 @@ export default async function decorate(block) {
 
   // const json = await req(url);
   const response = await fetch(url);
+  const testResponse = await fetch('/content/aemcloudondentsu/us/en/jcr%3Acontent.txt');
+
+  if (testResponse.ok) {
+    const test = await testResponse.text();
+
+    console.log(test);
+  }
 
   if (response.ok) {
     const json = await response.json();
