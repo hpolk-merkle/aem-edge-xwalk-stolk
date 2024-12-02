@@ -23,7 +23,9 @@
         {
           "component": "aem-content",
           "name": "parent",
-          "label": "Parent Path"
+          "value": "",
+          "label": "Parent Path",
+          "valueType": "string"
         }
       ]
     }
