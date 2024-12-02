@@ -165,8 +165,8 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "imagett",
-        "label": "Imagett",
+        "name": "image",
+        "label": "Image",
         "multi": false
       },
       {
