@@ -23,8 +23,8 @@
         {
           "component": "reference",
           "valueType": "string",
-          "name": "image",
-          "label": "Image",
+          "name": "imaget",
+          "label": "Imaget",
           "multi": false
         },
         {
