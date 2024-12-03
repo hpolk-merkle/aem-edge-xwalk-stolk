@@ -1,6 +1,8 @@
 {
   "mappings": [
     "/content/aem-eds-steven/:/",
-    "/content/aem-eds-steven/spreadsheet:/spreadsheet.json"
+    "/content/aem-eds-steven/spreadsheet:/spreadsheet.json",
+    "/content/aem-eds-steven/index/sub-page:/sub-page",
+    "/bin/poc/path:/bin/poc/path"
   ]
 }
