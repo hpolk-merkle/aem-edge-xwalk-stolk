@@ -166,7 +166,7 @@
                 "resourceType": "/apps/aemcloudondentsu/components/franklin/list",
                 "template": {
                   "name": "List",
-                  "model": "list"
+                  "model": "list-id"
                 }
               }
             }
