@@ -2,7 +2,7 @@
   "definitions": [
     {
       "title": "List",
-      "id": "list",
+      "id": "list-id",
       "plugins": {
         "xwalk": {
           "page": {
@@ -18,7 +18,7 @@
   ],
   "models": [
     {
-      "id": "list",
+      "id": "list-id",
       "fields": [
         {
           "component": "aem-content",

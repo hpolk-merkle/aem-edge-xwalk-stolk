@@ -159,7 +159,7 @@
         },
         {
           "title": "List",
-          "id": "list",
+          "id": "list-id",
           "plugins": {
             "xwalk": {
               "page": {
