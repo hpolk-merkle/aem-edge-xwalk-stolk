@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "title": "List",
+      "title": "List-id",
       "id": "list-id",
       "plugins": {
         "xwalk": {
