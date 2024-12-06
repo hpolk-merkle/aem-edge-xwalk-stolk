@@ -6,7 +6,7 @@
       "plugins": {
         "xwalk": {
           "page": {
-            "resourceType": "/apps/aemcloudondentsu/components/franklin/list",
+            "resourceType": "/apps/aemcloudondentsu/components/franklin/listAlt",
             "template": {
               "name": "List-id",
               "model": "list-id"
