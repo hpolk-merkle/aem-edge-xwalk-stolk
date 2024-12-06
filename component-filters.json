@@ -13,12 +13,12 @@
       "button",
       "title",
       "hero",
-      "list-id",
       "cards",
       "columns",
       "fragment",
-      "tags",
-      "quote"
+      "list-id",
+      "quote",
+      "tags"
     ]
   },
   {

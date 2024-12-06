@@ -186,6 +186,18 @@
     ]
   },
   {
+    "id": "list-id",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "parent",
+        "value": "",
+        "label": "Parent Path",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {
@@ -212,18 +224,6 @@
         "name": "tags",
         "value": "",
         "label": "Tags",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "list-id",
-    "fields": [
-      {
-        "component": "aem-content",
-        "name": "parent",
-        "value": "",
-        "label": "Parent Path",
         "valueType": "string"
       }
     ]

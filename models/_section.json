@@ -42,10 +42,12 @@
         "button",
         "title",
         "hero",
-        "list",
         "cards",
         "columns",
-        "fragment"
+        "fragment",
+        "list-id",
+        "quote",
+        "tags"
       ]
     }
   ]

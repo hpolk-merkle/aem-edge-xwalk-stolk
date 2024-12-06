@@ -158,6 +158,21 @@
           }
         },
         {
+          "title": "List",
+          "id": "list-id",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "/apps/aemcloudondentsu/components/franklin/list",
+                "template": {
+                  "name": "List",
+                  "model": "list-id"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Quote",
           "id": "quote",
           "plugins": {
@@ -184,21 +199,6 @@
                 "template": {
                   "name": "Tags",
                   "model": "tags"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "List",
-          "id": "list-id",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "/apps/aemcloudondentsu/components/franklin/list",
-                "template": {
-                  "name": "List",
-                  "model": "list-id"
                 }
               }
             }
