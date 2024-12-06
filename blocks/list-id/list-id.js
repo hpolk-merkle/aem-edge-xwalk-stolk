@@ -8,7 +8,7 @@
 //     });
 // }
 
-export default async function decorate(block) {
+export default function decorate(block) {
   console.log(block);
   // const [listWrapper] = block.children;
   //
