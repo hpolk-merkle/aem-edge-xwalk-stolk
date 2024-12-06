@@ -163,7 +163,7 @@
           "plugins": {
             "xwalk": {
               "page": {
-                "resourceType": "/apps/aemcloudondentsu/components/franklin/listAlt",
+                "resourceType": "/apps/aemcloudondentsu/components/franklin/listAlt2",
                 "template": {
                   "name": "List-id",
                   "model": "list-id"
