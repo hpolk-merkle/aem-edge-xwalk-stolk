@@ -18,7 +18,7 @@
   ],
   "models": [
     {
-      "id": "test-model-id",
+      "id": "test",
       "fields": [
         {
           "component": "text",
