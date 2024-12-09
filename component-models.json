@@ -186,7 +186,7 @@
     ]
   },
   {
-    "id": "list-id",
+    "id": "list-id-model",
     "fields": [
       {
         "component": "aem-content",

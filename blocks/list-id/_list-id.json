@@ -2,11 +2,11 @@
   "definitions": [
     {
       "title": "List title",
-      "id": "list-id",
+      "id": "list-id-def",
       "plugins": {
         "xwalk": {
           "page": {
-            "resourceType": "/apps/aemcloudondentsu/components/franklin/listAlt6",
+            "resourceType": "/apps/aemcloudondentsu/components/franklin/listAlt5",
             "template": {
               "name": "List-id",
               "model": "list-id"
@@ -18,7 +18,7 @@
   ],
   "models": [
     {
-      "id": "list-id",
+      "id": "list-id-model",
       "fields": [
         {
           "component": "aem-content",
