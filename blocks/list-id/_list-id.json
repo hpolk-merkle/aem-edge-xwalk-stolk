@@ -2,7 +2,7 @@
   "definitions": [
     {
       "title": "List title",
-      "id": "list-id-def",
+      "id": "list-id",
       "plugins": {
         "xwalk": {
           "page": {
