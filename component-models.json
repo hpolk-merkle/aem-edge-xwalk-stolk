@@ -227,5 +227,17 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "test-id-models",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "testString",
+        "label": "Test String",
+        "value": ""
+      }
+    ]
   }
 ]
