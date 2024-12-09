@@ -229,7 +229,7 @@
     ]
   },
   {
-    "id": "test",
+    "id": "test-model-id",
     "fields": [
       {
         "component": "text",

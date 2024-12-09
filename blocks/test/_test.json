@@ -2,14 +2,14 @@
   "definitions": [
     {
       "title": "Test Title",
-      "id": "test",
+      "id": "test-id-def",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block",
             "template": {
               "name": "Test template name",
-              "model": "test"
+              "model": "test-def-model"
             }
           }
         }
@@ -18,7 +18,7 @@
   ],
   "models": [
     {
-      "id": "test",
+      "id": "test-model-id",
       "fields": [
         {
           "component": "text",
