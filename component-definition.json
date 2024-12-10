@@ -158,7 +158,7 @@
           }
         },
         {
-          "title": "List title",
+          "title": "List title new",
           "id": "list-id",
           "plugins": {
             "xwalk": {
