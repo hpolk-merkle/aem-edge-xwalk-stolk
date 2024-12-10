@@ -34,13 +34,13 @@ export default async function decorate(block) {
 
     console.log(json);
 
-    json.data.forEach((item) => {
-      const listItem = document.createElement('li');
-      listItem.classList.add('list-block-item');
-      listItem.textContent = item.Path;
-
-      blockList.appendChild(listItem);
-    });
+    // json.data.forEach((item) => {
+    //   const listItem = document.createElement('li');
+    //   listItem.classList.add('list-block-item');
+    //   listItem.textContent = item.Path;
+    //
+    //   blockList.appendChild(listItem);
+    // });
   }
   //
   // // blockList.textContent = listWrapper.textContent.trim();
